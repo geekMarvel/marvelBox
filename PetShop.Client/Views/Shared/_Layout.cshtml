@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PetShop.Client</title>
+    @* <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <environment include="Development">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    </environment>
+
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PetShop.Client.styles.css" asp-append-version="true" />
+
+
+    <link href="~/css/site.css" rel="stylesheet" />
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+
+
+
+        body.greeting-bar {
+            margin: 0;
+            padding: 30px;
+        }
+
+        .greeting-bar {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 0px;
+            text-align: center;
+        }
+
+    
+        body.greeting-bar {
+            padding-top: 40px;
+        }
+        #adminHeader{
+           color: hotpink;
+        }
+
+ 
+    </style>
+
+</head>
+
+
+
+
+
+<body id="mainBody">
+    <header>
+        <div class="greeting-bar">
+            @if (User.Identity!.IsAuthenticated)
+            {
+                <h7>Hello, @User.Identity.Name!   Welcome back.</h7>
+                <a href="/Authentication/Logout"><button class="buttonLogout" type="button">Log Out</button></a>
+            }
+           
+        </div>
+
+        <div class="container">
+            <div class="sitemap">
+                <nav>
+                    <ul>
+                        <li>
+                            <span><a class="sitemap-font" asp-controller="Home" asp-action="Index">Home</a></span>
+                            <span>
+                                 <li> <a class="sitemap-font" asp-controller="Home" asp-action="Catalogue">Catalogue</a></li>
+                            </span>
+                            <span>
+                                 <li><a id="adminHeader" class="sitemap-font" asp-controller="Home" asp-action="Administrator">Administrator</a></li>
+                            </span>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="main-header">
+                <h1 bg-dark text-white p-4>The Best Pet Shop In Town</h1>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*     <footer class="border-top footer text-muted">
+    <div class="container">
+    &copy; 2023 - PetShop.Client - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+    </footer> *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

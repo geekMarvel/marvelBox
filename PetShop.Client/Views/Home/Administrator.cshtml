@@ -1,0 +1,81 @@
+﻿@model IEnumerable<PetShop.Models.Entities.Category>
+
+@{
+    ViewData["Title"] = "Administrator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Administrator</h3>
+<style>
+
+    table.table-dark {
+        margin-left: -195px;
+        margin-right: auto;
+    }
+
+    .table-dark {
+       object-position: center;
+    }
+</style>
+
+<div class="flex-container">
+    <form id="myForm" method="post" action="Administrator">
+        <label class="col-form-label" for="selectedValue"><strong>Please select a Category:</strong></label>
+        <select id="selectedValue" name="name">
+            <option value="defaultValue" selected>@ViewBag.CategoryName</option>
+
+            @foreach (var category in Model)
+            {
+                <option value="@category.Name">@category.Name</option>
+            }
+        </select>
+    </form>
+    @*      <div class="button-container">
+    <button onclick="window.location.href='/Home/NewAnimal'">Add New</button>
+    </div> *@
+</div>
+
+
+<div class="table-container">
+    <table class="table-dark">
+        <thead>
+            <tr>
+                <th>Portrait</th>
+                <th>Name</th>
+                <th>Lifespan</th>
+                <th class="descriptionColumn">Description</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var animal in ViewBag.animalsInCategory)
+            {
+                <tr class="contains-image">
+                    <td><img src="~/Images/@animal.PhotoUrl" alt="image"></td>
+                    <td>@animal.Name</td>
+                    <td>@animal.Lifespan</td>
+                    <td>@animal.Description</td>
+                    <td><a asp-action="Edit" asp-route-categoryId=@animal.CategoryId asp-route-animalId=@animal.AnimalId>Edit</a></td>
+                    <td><a asp-action="Delete" asp-route-animalId=@animal.AnimalId>Delete</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <div>
+        <button class="glow-on-hover button-container" type="button" onclick="window.location.href='/Home/NewAnimal'">Add New</button>
+    </div>
+    <div>
+        <button class="glow-on-hover" id="button-container2" type="button" onclick="window.location.href='/Authentication/Check'">current user</button>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#selectedValue').change(function () {
+            $('#myForm').submit();
+        });
+    });
+</script>

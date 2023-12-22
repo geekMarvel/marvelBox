@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PetShop.Models.Entities.Category>
+
+@{
+    ViewData["Title"] = "Catalogue";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+table catalogue{
+    width: 100%; /* Set a fixed width or a percentage based on your design */
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+}
+</style> 
+
+<form id="myForm" method="post" action="Catalogue">
+    <label for="selectedValue"><strong>Please select a Category:</strong></label>
+    <select id="selectedValue" name="name">       
+        <option>@ViewBag.CategoryName</option>
+
+        @foreach (var category in Model)
+        {
+            <option value="@category.Name">@category.Name</option>
+        }
+
+    </select>
+</form>
+
+<script>
+    $(function () {
+        $('#selectedValue').change(function () {
+            $('#myForm').submit();  
+        });
+    });
+</script>
+
+<table class="table-dark table-bordered">
+    <thead>
+        <tr>
+            <th>Portrait</th>
+            <th>Name</th>
+            <th class="centered-column">Find out more and comment</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var animal in ViewBag.animalsInCategory)
+        {
+            <tr class="contains-image">
+                <td><img src="~/Images/@animal.PhotoUrl" alt="image"></td>
+                <td>@animal.Name</td>
+                <td><a asp-action="Animal" asp-route-name=@animal.AnimalId>Detail</a></td>
+                @* <td><a href="/Home/Animal">Detail</a></td> *@
+            </tr>
+        }
+
+    </tbody>
+</table>

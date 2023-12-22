@@ -1,0 +1,48 @@
+﻿@model PetShop.Models.Entities.Comment
+
+@{
+    ViewData["Title"] = "CommentEdit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CommentEdit</title>
+</head>
+<body>
+
+
+    <div class="popupCommentEdit">
+        <form id="popupCommentEdit" method="post" asp-action="CommentUpdate" asp-controller="Home" enctype="multipart/form-data" autocomplete="off">
+
+            <input asp-for="CommentId" hidden />
+            <input asp-for="AnimalId" hidden />
+            <h6><label asp-for="Text">Comment:</label></h6>
+            <textarea input asp-for="Text" input-type="text" autocomplete="off" rows="3" cols="65" required></textarea>
+
+            <span asp-validation-for="Text"></span>
+            <br />
+            <br />
+
+            <div>
+                <button id="mybut" type="submit">Update</button>
+            </div>
+            <br/>
+        </form>
+
+    </div>
+    <div>
+        <form method="post" asp-action="DeleteComment" asp-controller="Home" enctype="multipart/form-data" autocomplete="off">
+            <input asp-for="CommentId" hidden />
+            <input asp-for="AnimalId" hidden />
+
+            <button type="submit">Delete Comment</button>
+        </form>
+    </div>
+
+</body>
+</html>

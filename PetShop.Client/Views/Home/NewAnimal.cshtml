@@ -1,0 +1,126 @@
+﻿@model PetShop.Models.Entities.Animal
+
+@{
+    ViewData["Title"] = "NewAnimal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Scripts {
+    <environment include="Development">
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.unobtrusive.min.js"></script> 
+     </environment> 
+}
+
+<style> 
+
+
+
+</style>
+
+<div class="imgPrev">
+    <img id="imagePreview2" content="hello" src="#">
+</div>
+
+<form id="yourForm" method="post" asp-action="AddAnimal" enctype="multipart/form-data" autocomplete="off">
+    <table class="custom-table">
+        <tr class="form-group">
+            <td><label asp-for="Name"></label></td>
+            <td><input asp-for="Name" required /></td>
+            <td><span asp-validation-for="Name"></span></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Lifespan"></label></td>
+            <td><input asp-for="Lifespan" required /></td>
+            <td><span asp-validation-for="Lifespan"></span></td>
+        </tr>
+        <tr>
+            <td><label asp-for="PhotoUrl"></label></td>
+            <td><input asp-for="PhotoUrl" id="pictureNameInput" required /></td>
+            <td>
+                <label for="animalPhoto"></label>
+                <input type="file" id="animalPhoto" name="imgFile" accept=".jpg, .jpeg, .png" required onchange="previewImage()" />
+            </td>
+        </tr>
+    
+
+        <tr>
+            <td><label asp-for="Description"></label></td>
+            <td><textarea input asp-for="Description" input-type="text" rows="3" cols="50" required></textarea></td>
+            <td><span asp-validation-for="Description"></span></td>
+        </tr>
+        <tr>
+
+            <td><label>Category</label></td>
+            <td>
+                <select id="categoryDropdown">
+
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <option value="@category.Name">@category.Name </option>
+                    }
+
+                </select>
+            </td>
+            <td class="largerCell" rowspan="2">
+                <form id="categoryForm" asp-action="AddAnimal" method="post">
+                    <input type="hidden" id="selectedCategory" name="selectedCategory" value="">
+                </form>
+                <div class="imgPrev frame">
+                    <img id="imagePreview3" src="#" alt="">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="insert-button"><strong>Add</strong></button></td>
+            <td>
+            </td>
+
+        </tr>
+    </table>
+</form>
+
+<script>
+
+    $(function () {
+        $('#insert-button').click(function () {
+            var selectedCategory = $('#categoryDropdown').val();
+            $('#selectedCategory').val(selectedCategory);
+            // $('#categoryForm').submit();
+        });
+    });
+</script>
+
+<script>
+
+    document.getElementById('animalPhoto').addEventListener('change', function () {
+        // const fileInput = this;
+        const fileName = this.value.split('\\').pop(); // Get the file name
+
+        // Update the input field with the chosen file name
+        document.getElementById('pictureNameInput').value = fileName;
+
+    });
+</script>
+
+<script>
+
+    function previewImage() {
+        var input = document.getElementById('animalPhoto');
+        var preview = document.getElementById('imagePreview3');
+
+        var file = input.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            preview.src = e.target.result;
+        };
+
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    }
+</script>

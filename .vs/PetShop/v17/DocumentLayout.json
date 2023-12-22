@@ -1,0 +1,435 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexa\\Downloads\\PetShop-final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987851A6-9C7F-4729-B930-5CE4E21F3C88}|PetShop.Data\\PetShop.Data.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987851A6-9C7F-4729-B930-5CE4E21F3C88}|PetShop.Data\\PetShop.Data.csproj|solutionrelative:petshop.data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\authentication\\check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\authentication\\check.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\authentication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\authentication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\newanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\newanimal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\commentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\commentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\catalogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\catalogue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\animal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\animal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\views\\home\\administrator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\views\\home\\administrator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\customauthorize\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\customauthorize\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.models\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|solutionrelative:petshop.models\\entities\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|solutionrelative:petshop.models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.models\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|solutionrelative:petshop.models\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83B2263-8356-4D60-A4EF-C431A4B8D26F}|PetShop.Models\\PetShop.Models.csproj|solutionrelative:petshop.models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\customauthorize\\customauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\customauthorize\\customauthorizationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|c:\\users\\alexa\\downloads\\petshop-final\\petshop.client\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B12ADA6-337A-4103-B74B-D1C5CA86340C}|PetShop.Client\\PetShop.Client.csproj|solutionrelative:petshop.client\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 20,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Data\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "PetShop.Data\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Data\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "PetShop.Data\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:51.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Administrator.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Administrator.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Administrator.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Administrator.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Administrator.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Program.cs",
+              "RelativeDocumentMoniker": "PetShop.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Program.cs",
+              "RelativeToolTip": "PetShop.Client\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Requests\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "PetShop.Models\\Requests\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Requests\\RegisterRequest.cs",
+              "RelativeToolTip": "PetShop.Models\\Requests\\RegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "PetShop.Models\\Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\Comment.cs",
+              "RelativeToolTip": "PetShop.Models\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\Animal.cs",
+              "RelativeDocumentMoniker": "PetShop.Models\\Entities\\Animal.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\Animal.cs",
+              "RelativeToolTip": "PetShop.Models\\Entities\\Animal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\CustomAuthorize\\CustomAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "PetShop.Client\\CustomAuthorize\\CustomAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\CustomAuthorize\\CustomAuthorizeAttribute.cs",
+              "RelativeToolTip": "PetShop.Client\\CustomAuthorize\\CustomAuthorizeAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomAuthorizationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\CustomAuthorize\\CustomAuthorizationFilter.cs",
+              "RelativeDocumentMoniker": "PetShop.Client\\CustomAuthorize\\CustomAuthorizationFilter.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\CustomAuthorize\\CustomAuthorizationFilter.cs",
+              "RelativeToolTip": "PetShop.Client\\CustomAuthorize\\CustomAuthorizationFilter.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "PetShop.Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Models\\Entities\\User.cs",
+              "RelativeToolTip": "PetShop.Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewAnimal.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\NewAnimal.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\NewAnimal.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\NewAnimal.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\NewAnimal.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\CommentEdit.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\CommentEdit.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\CommentEdit.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\CommentEdit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Animal.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Animal.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Animal.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Animal.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Animal.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAGEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Check.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Check.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Authentication\\Check.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Check.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Authentication\\Check.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Catalogue.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Catalogue.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Catalogue.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Catalogue.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Catalogue.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAGYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Authentication\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Index.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Authentication\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "PetShop.Client\\Views\\Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "PetShop.Client\\Views\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-15T22:00:02.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PetShop.Client\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PetShop.Client\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-15T22:00:02.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "PetShop.Client\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "PetShop.Client\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwI4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PetShop.Client\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\alexa\\Downloads\\PetShop-final\\PetShop.Client\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PetShop.Client\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAYwIAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-15T22:00:02.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

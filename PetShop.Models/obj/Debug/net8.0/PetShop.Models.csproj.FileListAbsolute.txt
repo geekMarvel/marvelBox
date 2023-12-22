@@ -1,0 +1,12 @@
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\bin\Debug\net8.0\PetShop.Models.deps.json
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\bin\Debug\net8.0\PetShop.Models.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\bin\Debug\net8.0\PetShop.Models.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.csproj.AssemblyReference.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.AssemblyInfoInputs.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.AssemblyInfo.cs
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\refint\PetShop.Models.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\PetShop.Models.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Models\obj\Debug\net8.0\ref\PetShop.Models.dll

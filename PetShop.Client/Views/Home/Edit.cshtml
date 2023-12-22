@@ -1,0 +1,109 @@
+﻿@model PetShop.Models.Entities.Animal
+
+@{
+    ViewData["Title"] = "Edit";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <!-- Other head elements -->
+    @* <link rel="stylesheet" href="~/Styles/StyleSheet.css"> *@
+    @* <meta name="viewport" content="width=device-width, initial-scale=1.0"> *@
+</head>
+
+
+<h4 class="editEnimalHeader">Edit page</h4>
+
+<body>
+
+    <div class="left-side">
+        <form id="editForm" method="post" asp-action="UpdateAnimal" asp-controller="Home" enctype="multipart/form-data" autocomplete="off">
+
+            <input asp-for="AnimalId" type="hidden" />
+
+            <h4><label asp-for="Name">Name:</label></h4>
+            <input asp-for="Name" required>
+            <span asp-validation-for="Name"></span>
+            <br />
+            <br />
+            <h4><label asp-for="Lifespan">Lifespan:</label></h4>
+            <input asp-for="Lifespan" required>
+            <span asp-validation-for="Lifespan"></span>
+            <br />
+            <br />
+            <h4><label asp-for="Description">Description:</label></h4>
+            <textarea asp-for="Description" input-type="text" rows="4" cols="90" required></textarea>
+            <br />
+            <br />
+            <h4><label asp-for="PhotoUrl">Picture Name:</label></h4>
+            <input asp-for="PhotoUrl" id="pictureNameInput" required />
+            <br />
+            <br />        
+          
+            <label for="animalPhoto"></label>
+            <input type="file" id="animalPhoto" name="imgFile" accept=".jpg, .jpeg, .png" onchange="previewImage()" />
+            <br />
+            <br />
+            <div>
+                <button id="mybut" class="updateButton" type="submit">Update</button>
+            </div>
+        </form>
+    </div>
+    <div>
+        <img id="imagePreview" src="~/Images/@Model.PhotoUrl">
+    </div>
+
+</body>
+
+
+<script>
+
+    $(function () {
+        $('#mybut').click(function () {
+            var selectedCategory = $('#categoryDropdown').val();
+            $('#selectedCategory').val(selectedCategory);
+            // $('#categoryForm').submit();
+        });
+    });
+</script>
+
+
+
+<script>
+    $(function () {
+        $('#selectedValue').change(function () {
+            $('#editForm').submit();
+        });
+    });
+</script>
+
+
+<script>
+    document.getElementById('animalPhoto').addEventListener('change', function () {
+        // const fileInput = this;
+        const fileName = this.value.split('\\').pop(); // Get the file name
+
+        // Update the input field with the chosen file name
+        document.getElementById('pictureNameInput').value = fileName;
+
+    });
+</script>
+
+
+<script>
+    function previewImage() {
+        var input = document.getElementById('animalPhoto');
+        var preview = document.getElementById('imagePreview');
+
+        var file = input.files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            preview.src = e.target.result;
+        };
+
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    }
+</script>

@@ -1,0 +1,17 @@
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Services.deps.json
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Services.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Services.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Data.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Models.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Data.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\bin\Debug\net8.0\PetShop.Models.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.csproj.AssemblyReference.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.AssemblyInfoInputs.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.AssemblyInfo.cs
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.csproj.CopyComplete
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\refint\PetShop.Services.dll
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\PetShop.Services.pdb
+C:\Users\alexa\Downloads\PetShop-final\PetShop.Services\obj\Debug\net8.0\ref\PetShop.Services.dll

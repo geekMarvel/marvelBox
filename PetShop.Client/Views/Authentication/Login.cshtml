@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Login Page</h4>
+
+<h1>@ViewBag.Login</h1
+
+
+
+<div id="loginPopup">
+    <!-- Login form content goes here -->
+    <form method="post" asp-action="Login" asp-controller="Authentication">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+<div>
+    <button  type="button" onclick="window.location.href='/Authentication/Check'">Check</button>
+</div>
+

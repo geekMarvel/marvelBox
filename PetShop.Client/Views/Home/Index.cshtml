@@ -1,0 +1,159 @@
+﻿@model IEnumerable<PetShop.Models.Entities.Animal>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background: linear-gradient(to bottom right, brown,mediumaquamarine, #F87E7B);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        min-width: 650px;
+        border-radius: 10px;
+        border: 1px solid #000;
+    }
+
+    .message-container {
+    
+        position: absolute;
+        top: 220px;
+        right: 160px;
+        /* transform: translate(-50%, -50%); */
+        visibility: visible;
+        /* background-color: khaki; */
+        color: black;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+</style>
+
+
+
+
+<div class="container">
+    @* <a asp-controller="/Authentication" asp-action="Index"></a>  *@
+    <a href="/Authentication/Index"><button class="buttonRegister" type="button">Register</button></a>
+    @* @Html.ActionLink("Log In", "Index", "Authentication", new { }, new { @class = "buttonNewlogin" })*@
+</div>
+
+<div class="container">
+    @* <a class="lg" onclick="document.getElementById('id01').style.display='block'" ><button class="buttonNewlogin" type="button">Log in</button></a> *@
+    <a class="lg"> @*href="/Authentication/Login"> *@<button id="loginButton" class="buttonNewlogin" type="button">Log in</button></a>
+
+</div>
+
+
+
+
+
+<div class="message-container" id="messageContainer">
+    <p>@ViewBag.authenticationMessage</p>
+</div>
+
+<h3>The two most highly rated pets today are: </h3>
+<table class="table-dark">
+
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Description</th>
+            <th class="centered-column">Number of Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var animal in Model)
+        {
+            <tr>
+                <td><img class="pict" src="~/Images/@animal.PhotoUrl"></td>
+                <td>@animal.Name</td>
+                <td class="descriptionColumn">@animal.Description</td>
+                <td class="centered-column">@animal.CommentCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="toast-body">
+    <div id="loginPopup" class="popup">
+        <form method="post" asp-action="Login" asp-controller="Authentication">
+            <!--First name-->
+            <div class="box">
+                <label for="Username" class="fl fontLabel"> Username: </label>
+                <div class="new iconBox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="fr">
+                    <input type="text" name="Username" placeholder="Username" class="textBox" required />
+                </div>
+            </div>
+            <!--First name-->
+            <!---Password------>
+            <div class="box">
+                <label for="password" class="fl fontLabel"> Password </label>
+                <div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+                <div class="fr">
+                    <input type="Password" required name="password" placeholder="Password" class="textBox">
+                </div>
+                <div class="clr"></div>
+            </div>
+            <!---Password---->
+            <!--Terms and Conditions------>
+            <div class="box terms">
+                <input type="hidden" name="Terms"> &nbsp;
+            </div>
+            <!--Terms and Conditions------>
+            <!---Submit Button------>
+            <div class="box" style="background: #2d3e3f">
+                <input type="Submit" name="Submit" class="submit" value="SUBMIT">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('loginButton').addEventListener('click', function () {
+        document.getElementById('loginPopup').style.display = 'block';
+    });
+
+    // Use a global click event to check if the click occurred outside the popup
+    document.addEventListener('click', function (e) {
+        var loginPopup = document.getElementById('loginPopup');
+        if (!loginPopup.contains(e.target) && e.target !== document.getElementById('loginButton')) {
+            loginPopup.style.display = 'none';
+        }
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var messageContainer = document.getElementById('messageContainer');
+
+        // Add a click event listener to the document
+        document.addEventListener('click', function () {
+            // Hide the message container when any click is done
+            messageContainer.style.display = 'none';
+        });
+    });
+</script>

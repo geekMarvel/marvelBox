@@ -1,0 +1,174 @@
+﻿@model PetShop.Models.Entities.Comment
+
+@{
+    ViewData["Title"] = "Animal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    html {
+      
+        background-color: lightslategrey;
+    }
+
+    #mainBody {
+        background-color: beige;
+    }
+
+    table.commentsTable {
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: pink;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    th, td {
+        color: black;
+        border: 1px thin;
+        padding: 10px;
+        min-width: 100px; /* Set a minimum width for each column */
+        text-align: left;
+        border: revert
+    }
+
+    th {
+        background-color: hotpink;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        border-radius: 5%;
+    }
+
+    .right-content {
+        margin-left: 20px; /* Adjust the margin as needed */
+    }
+
+        .right-content li {
+            width: 400px; 
+            white-space: nowrap; /* Prevent wrapping */
+            text-overflow: ellipsis; /* Display ellipsis (...) for long text */
+        }
+
+
+    th, td {
+        padding: 10px; 
+        text-align: left; 
+    }
+
+    th {
+        background-color: #f0f0f0; 
+        font-size: 20px; 
+        background-color: gray;
+    }
+
+    td {
+        font-size: 18px;          
+    }
+
+        /* Adjust the width of specific columns (e.g., Name and Lifespan) */
+        th:nth-child(1), td:nth-child(1) {
+            width: 70px; 
+        }
+        /* Adjust the width of specific columns (e.g., Name and Lifespan) */
+        td:nth-child(2) {
+            width: 700px;
+        }
+
+    /* Adjust the height of specific rows (e.g., first row) */
+    tr:nth-child(1) th, tr:nth-child(1) td {
+        height: 50px; 
+    }
+
+    tr:nth-child(2) th, tr:nth-child(2) td {
+        height: 50px;
+    }
+
+    tr:nth-child(3) th, tr:nth-child(3) td {
+        height: 50px; 
+    }
+
+    tr:nth-child(4) th, tr:nth-child(4) td {
+        height: 50px; 
+    }
+
+    .right-content li {
+        white-space: nowrap; 
+        text-overflow: ellipsis; /* Display ellipsis (...) for long text */
+    }
+
+    .inline-heading {
+        display: flex;
+    }
+
+    .commentForm {
+        margin-left: 142px;
+    }
+
+    h1 {
+        display: none;
+    }
+</style>
+<div class="container">
+    <table class="commentsTable">
+
+        <tr>
+            <th>Name</th>
+            <td>@ViewBag.animalData.animalName</td>
+        </tr>
+        <tr>
+            <th>Lifespan</th>
+            <td>@ViewBag.animalData.animalLifespan</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>@ViewBag.animalData.animalDescription</td>
+        </tr>
+        <tr>
+            <th>Category Name</th>
+            <td>@ViewBag.animalData.categoryName</td>
+        </tr>
+
+    </table>
+
+    <div class="right-content">
+        <h3 class="inline-heading">comments...</h3>
+        <br />
+        <ul>
+
+            @if (User.Identity!.IsAuthenticated)
+            {
+                @foreach (var comment in ViewBag.animalData.animalComments)
+                {
+                    @* <li>@comment.Text</li> *@
+                    <li><a asp-action="CommentEdit" asp-route-commentId=@comment.CommentId>@comment.Text</a></li>
+                }
+            }
+            else
+            {
+                @foreach (var comment in ViewBag.animalData.animalComments)
+                {
+                    <li>@comment.Text</li>
+                }
+            }
+
+
+        </ul>
+    </div>
+</div>
+
+<div class="commentForm">
+    <form method="post" asp-action="AddComment">
+        <div>
+            <label asp-for="Text" hidden></label>
+            <textarea input asp-for="Text" input-type="text" autocomplete="off" rows="3" cols="65" required></textarea>
+            <span asp-validation-for="Text"></span>
+            <input type="hidden" name="animalId" value="@ViewBag.animalData.animalId" />
+        </div>
+        <div>
+            <button class="buttonComment" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
